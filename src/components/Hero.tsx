@@ -68,6 +68,20 @@ export default function Hero() {
 
       <div className="relative max-w-7xl mx-auto px-6 py-28 md:py-36 w-full">
         <div className="max-w-3xl">
+          {/* Badge */}
+          <div
+            className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full text-xs font-semibold tracking-widest mb-8 border"
+            style={{
+              background: "rgba(232,101,10,0.08)",
+              borderColor: "rgba(232,101,10,0.25)",
+              color: "#fb923c",
+              fontFamily: "var(--font-barlow)",
+            }}
+          >
+            <Shield size={12} />
+            CERTIFIKOVANÁ FIRMA · OD ROKU 1992
+          </div>
+
           {/* Headline */}
           <h1
             className="font-black leading-none tracking-tight mb-6"
